@@ -1,5 +1,5 @@
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-# ADJUST THE DRIVE LETTER OF YOUR MICROSD CARD HERE:
+# Passen Sie hier den Laufwerksbuchstaben Ihrer microSD-Karte an:
 $sdCard = "" # Beispiel $sdCard = "E:/"
 
 # Stellt sicher, dass der Pfad mit einem Backslash endet
