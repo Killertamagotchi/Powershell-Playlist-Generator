@@ -1,6 +1,6 @@
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 # ADJUST THE DRIVE LETTER OF YOUR MICROSD CARD HERE:
-$sdCard = "E:\"
+$sdCard = "" # example $sdCard = "E:/"
 
 # Ensure the path ends with a backslash
 if (-not $sdCard.EndsWith("\")) { $sdCard += "\" }
