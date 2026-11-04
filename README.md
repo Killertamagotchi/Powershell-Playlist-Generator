@@ -24,7 +24,8 @@ A small and lightweight PowerShell script designed to automatically generate mus
 ### How to Use
 1. **Clone or Download** this repository to your local machine.
 2. Place the script files into the directory containing your music, or configure the paths inside the script.
-3. Double-click the `.bat` file (e.g., `playlist-generator-(En).bat`) to run the generator instantly.
+3. Modify or add the drive letter in `playlist-generator-(En).ps1` at the beginning, where it says `$sdCard = ""`; for example: `$sdCard = "E:/"`
+4. Double-click the `.bat` file (e.g., `playlist-generator-(En).bat`) to run the generator instantly.
 
 ---
 
@@ -46,4 +47,5 @@ Ein kleines und leichtgewichtiges PowerShell-Skript zur automatischen Erstellung
 ### Verwendung
 1. **Klonen oder laden** Sie dieses Repository auf Ihren lokalen Computer herunter.
 2. Platzieren Sie die Skriptdateien in dem Ordner, der Ihre Musik enthält, oder passen Sie die Pfade innerhalb des Skripts an.
-3. Klicken Sie doppelt auf die entsprechende `.bat`-Datei (z. B. `playlist-generator-(De).bat`), um den Generator direkt zu starten.
+3. Ändere/Füge das Laufwerk im `playlist-generator-(De).ps1` am Anfang an der Stelle mit `$sdCard = ""` ein z.B. `$sdCard = "E:/"`
+4. Klicken Sie doppelt auf die entsprechende `.bat`-Datei (z. B. `playlist-generator-(De).bat`), um den Generator direkt zu starten.
